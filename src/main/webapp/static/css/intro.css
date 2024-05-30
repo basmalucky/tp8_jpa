@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1A1A1D;
+    color: #E0E0E2;
+    text-align: center;
+}
+
+.vaporwave-container {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #FF6B6B;
+    border-radius: 20px;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+h1 {
+    color: #FF6B6B;
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.6em;
+    color: #A8A8A8;
+    margin-bottom: 40px;
+}
+
+.btn-vaporwave {
+    background-color: #4A4A4D;
+    color: #E0E0E2;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-vaporwave:hover {
+    background-color: #2B2B2E;
+}

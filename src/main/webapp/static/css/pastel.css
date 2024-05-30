@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FCEADE;
+    color: #6E6B6B;
+    text-align: center;
+}
+
+.pastel-container {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #FFD6BA;
+    border-radius: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+h1 {
+    color: #FF9A8B;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.6em;
+    color: #6E6B6B;
+    margin-bottom: 30px;
+}
+
+.btn-pastel {
+    background-color: #FFD6BA;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-pastel:hover {
+    background-color: #FFBFB3;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #6E6B6B;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #FFD6BA;
+    color: #6E6B6B;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #FF9A8B;
+    background-color: #FFD6BA;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #FF9A8B;
+}
+
+.table .thead-light th {
+    color: #6E6B6B;
+    background-color: #FCEADE;
+    border-color: #FFD6BA;
+}
+
+.action-icon {
+    margin-right: 10px;
+    color: #6E6B6B;
+}
+
+.action-icon:hover {
+    color: #FF9A8B;
+}
